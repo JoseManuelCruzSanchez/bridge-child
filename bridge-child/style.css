@@ -1,0 +1,14 @@
+/*
+Theme Name: Bridge Child
+Theme URI: http://demo.qodeinteractive.com/bridge/
+Description: A child theme of Bridge Theme
+Author: Qode Interactive
+Author URI: http://www.qodethemes.com/
+Version: 1.0.0
+Template: bridge
+*/
+@import url("../bridge/style.css");
+
+.blog_holder.masonry:not(.blog_masonry_date_in_image) article .mejs-container, .blog_holder.masonry_full_width:not(.blog_masonry_date_in_image) article .mejs-container, .blog_holder.masonry:not(.blog_masonry_date_in_image) article .post_text .post_text_inner, .blog_holder.masonry_full_width:not(.blog_masonry_date_in_image) article .post_text .post_text_inner{
+    background-color: red;
+}
